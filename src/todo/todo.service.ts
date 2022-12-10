@@ -1,8 +1,8 @@
 /* eslint-disable @typescript-eslint/no-empty-function */
 import { Inject, Injectable } from '@nestjs/common';
-import { TodoDto } from './todo.dto';
-import { TodoModel } from './todo.model';
-import { UpdateTodoDto } from './todo_update.dto';
+import { TodoDto } from './data/todo.dto';
+import { TodoModel } from './data/todo.model';
+import { UpdateTodoDto } from './data/todo_update.dto';
 
 @Injectable()
 export class TodoService {
